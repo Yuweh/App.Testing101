@@ -1,1 +1,11 @@
+# UNIT Testing with XCtest 
+
+import XCtest
+@testable ---
+
+-
+setup()
+teardown()
+yourTestClasses()
+
 
