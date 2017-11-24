@@ -5,16 +5,21 @@ Intro to Mobile App Testing in iOS
 
 -----
 
-# ANATOMY OF A TEST CASE
+### ANATOMY OF A TEST CASE
 -----
 
 Previously in this lesson, you learned that unit tests are stored under their own group in the project explorer. 
 
 The unit being tested is always a .swift class fi le, and all the tests related to that class are grouped in a single test class. A test class is just a Swift class that inherits from XCTestCase and can contain fi ve types of methods: 
+
 ➤ Setup method: This method is called setUp() and is called before each test method is executed in the test class. 
-➤ Teardown method: This method is called tearDown() and is called after each test method is executed in the test class.  
+
+➤ Teardown method: This method is called tearDown() and is called after each test method is executed in the test class. 
+
 ➤ Test methods: These methods all begin with the word “test.” Each method encapsulates a single test.  
+
 ➤ Performance testing methods: These methods all begin with testPerformance. Performance testing is outside the scope of this book. 
+
 ➤ Other Swift methods: A test class is a Swift class and can contain any other methods just like any other Swift class. These methods are usually written to support other test methods.
 
 
