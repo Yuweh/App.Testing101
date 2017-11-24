@@ -7,10 +7,9 @@ Intro to Mobile App Testing in iOS
 
 ### ANATOMY OF A TEST CASE
 -----
+The unit being tested is always a .swift class file, and all the tests related to that class are grouped in a single test class. 
 
-Previously in this lesson, you learned that unit tests are stored under their own group in the project explorer. 
-
-The unit being tested is always a .swift class fi le, and all the tests related to that class are grouped in a single test class. A test class is just a Swift class that inherits from XCTestCase and can contain fi ve types of methods: 
+A test class is just a Swift class that inherits from XCTestCase and can contain five types of methods: 
 
 ➤ Setup method: This method is called setUp() and is called before each test method is executed in the test class. 
 
