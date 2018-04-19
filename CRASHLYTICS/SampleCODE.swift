@@ -10,7 +10,7 @@ For Info.Plist
       <key>Fabric</key>
   <dict>
     <key>APIKey</key>
-    <string>858fc11e4a5e557dd6cc99d2288d54f36fee4741</string>
+    <string></string>
     <key>Kits</key>
     <array>
       <dict>
